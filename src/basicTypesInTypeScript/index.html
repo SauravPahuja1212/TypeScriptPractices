@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleAddition</title>
+    <script src="../../Compiled/js/basicTypesInTypeScript/basicTypesInTypeScript.js"></script>
+</head>
+<body>
+    <input id="num1" type="number" name="Enter num1" />
+    <input id="num2" type="number" name="Enter num2" />
+    <input id="operation" type="text" name="Enter operation to perform" list="operations" />
+    <datalist id="operations">
+        <option value="Addition" selected></option>
+        <option value="Multiplication"></option>
+        <option value="Subtraction"></option>
+        <option value="Division"></option>
+    </datalist>
+
+    <button onclick="sendToCalculate()">Calculate</button>
+    <div id="output"></div>
+</body>
+</html>
