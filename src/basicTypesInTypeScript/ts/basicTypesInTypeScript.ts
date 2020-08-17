@@ -3,7 +3,7 @@
  * <ul>
  *  <li>number [For all numeric values i.e integers, float]</li>
  *  <li>string [For all text values i.e 'Hello', "Hello", `Hello`]</li>
- *  <li>number [For all conditional values i.e true | false]</li>
+ *  <li>boolean [For all conditional values i.e true | false]</li>
  * </ul>
  */
 
