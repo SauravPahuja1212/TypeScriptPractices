@@ -177,6 +177,7 @@ function callBackType(cb: (name: string) => void){
 callBackType(voidReturnType); //This way we can call our create callback function as a type
 
 
+
 //Unknown type is same as any type but is more type checked as compared to any
 let vAny: any;
 let vUnknown: unknown;

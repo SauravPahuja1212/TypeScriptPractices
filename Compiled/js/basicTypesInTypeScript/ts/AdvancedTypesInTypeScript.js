@@ -31,11 +31,12 @@ console.log(printName("Software Developer", "Namaste"));
 */
 const languages = ["Java", 'Kotlin', `Scala`];
 //Now we'll assign above array values to another array with one go, No loop required
-const languageFramework = ["Java", 'Kotlin', `Scala`, ...languages];
+const languageFramework = ["Java", 'Kotlin', `Python`, ...languages];
 //But this is not restricted to arraya, We can explore objects also with this as ->
 const person = {
     name: "Saurav Pahuja",
-    age: 24
+    age: 24,
+    state: ["Haryana", "Punjab"]
 };
 const user = Object.assign({}, person);
 user.age = 25;
