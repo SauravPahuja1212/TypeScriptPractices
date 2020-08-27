@@ -35,7 +35,7 @@ console.log(calledAnotherFunction.age);//This is available too
 
 //Now any type of object can be sent in this function, but if we want to be some restrictive in this
 //case, Then we have to use constraints as->
-function constraintsFunction<T extends object, U extends object>(a: T, b:U) {
+function constraintsFunction<T extends object, U extends object>(a:T, b:U) {
     console.log(typeof a);
     console.log(typeof b);
 }

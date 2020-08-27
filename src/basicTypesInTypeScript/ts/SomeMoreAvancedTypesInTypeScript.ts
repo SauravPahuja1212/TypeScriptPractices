@@ -158,7 +158,7 @@ const errorContainer: container = {
 //Function Overloads, In typescript we can overload any function by using this function overloads,
 //This is useful if we want our function to work with different type of parameters as ->
 type duo = string | number | boolean;
-function getCount(a:number, b?:number): number
+function getCount(a:number, b:number, c:number): number
 function getCount(a: duo, b?: duo) {
     if(typeof a === 'string' && typeof b === 'string') {
         return a.toString() + b.toString();
